@@ -1,0 +1,349 @@
+
+/* цвет основного текста черный #212121 */
+
+/* цвет вторичного текста белый #757575 */
+
+/* акцент голубой #2196F3; */
+
+/* фон кнопки голубий #2196F3*/
+
+:root {
+    --main-color: #212121;
+    --second-color: #757575;
+    --button-text-color: #ffffff;
+    --accent-color: #2196F3;
+    --logo-main-color: rgba(33, 150, 243, 1);
+    --logo-second-coolor: rgba(0, 0, 0, 1);
+    --logo-last-color: rgba(255, 255, 255, 1);
+    --logo-accent-color: #2196F3;
+    --section-background-color: #2F303A;
+    --address-contact-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-color);
+}
+
+.logo .title {
+    color: var(--logo-second-coolor);
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--logo-main-color);
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/* верхній список посилань */
+
+.site .link:hover,
+.site .link:focus {
+    color: var(--accent-color);
+}
+
+.site {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.site .link {
+    color: var(--main-color);
+}
+
+/* для сторінки Портфоліо .site .link */
+.site .link {
+    color: var(--main-color);
+}
+/* .site .link */
+
+.site .link.current {
+    color: var(--accent-color);
+}
+
+.site .link {
+    text-decoration: none;
+}
+
+.site-auth .link {
+    text-decoration: none;
+}
+
+.site-auth .link-item {
+    text-decoration: none;
+}
+
+.site-auth .link-item:hover,
+.site-auth .link-item:focus {
+    color: var(--accent-color);
+}
+
+.site-auth .link:hover,
+.site-auth .link:focus {
+    color: var(--accent-color);
+}
+
+.site-auth .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-color);
+}
+
+.site-auth .link-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-color);
+}
+
+/* секція ефективні рішення */
+
+.section-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.section {
+    background-color: var(--section-background-color);
+}
+
+/* кнопка */
+
+.button:hover,
+.button:focus {
+    background-color: #188CE8;
+}
+
+.button {
+    color: var(--button-text-color);
+    background-color: var(--logo-main-color);
+}
+
+.button {
+    cursor: pointer;
+}
+
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+/* секія переваги */
+
+.list-items .quote {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.list-items .text {
+    color: var(--second-color);
+}
+
+/* секція чим ми займаємося */
+
+.desc-one {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* секція наша команда */
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-caption {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-item .excerpt {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+.subject {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--second-color);
+}
+
+/* секція контакти */
+
+.footer {
+    background-color: var(--section-background-color);
+}
+
+.decoration {
+    background-color: var(--section-background-color);
+}
+
+.footer .logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--logo-main-color);
+}
+
+.footer .logo .title {
+    color: var(--logo-last-color);
+}
+
+.address-list .link:hover,
+.address-list .link:focus {
+    color: var(--accent-color);
+}
+
+.address-list .mail:hover,
+.address-list .mail:focus {
+    color: var(--accent-color);
+}
+
+.address-list .tel:hover,
+.address-list .tel:focus {
+    color: var(--accent-color);
+}
+
+.footer .link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.mail {
+    text-decoration: none;
+}
+
+.mail {
+    font-style: normal;
+    color: var(--address-contact-color);
+}
+
+.tel {
+    font-style: normal;
+    color: var(--address-contact-color);
+}
+
+.tel {
+    text-decoration: none;
+}
+
+/* сторінка ПОРТФОЛІО*/
+
+/* список кнопок */
+
+.list {
+    list-style: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.hero-button .btn.current {
+    color: var(--button-text-color);
+    background-color: var(--accent-color);
+}
+
+.hero-button .btn:hover,
+.hero-button .btn:focus {
+    color: var(--button-text-color);
+    background-color: #188CE8;
+}
+
+.hero-button .btn {
+    cursor: pointer;
+}
+
+.hero-button .btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+/* список карток */
+
+.link {
+    text-decoration: none;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+}
+.tagline{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+}
+.footer .logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--logo-main-color);
+}
+
+.footer .logo .title {
+    color: var(--logo-last-color);
+}
