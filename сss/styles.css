@@ -25,6 +25,10 @@ body {
     color: var(--main-color);
 }
 
+.container {
+    width: 1200px;
+}
+
 .logo .title {
     color: var(--logo-second-coolor);
 }
