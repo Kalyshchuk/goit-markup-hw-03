@@ -32,17 +32,17 @@ body {
     outline: 2px solid gray;
 }
 
-. {
-    display: flex;
-}
+
 
 .logo .title {
     color: var(--logo-second-coolor);
 }
 
 .logo {
-    display: flex;
+    display: inline-block;
+    margin-right: 0;
 }
+
 
 .logo {
     font-family: 'Raleway';
@@ -63,9 +63,22 @@ body {
 
 /* верхній список посилань */
 
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+}
+
 .site .link:hover,
 .site .link:focus {
     color: var(--accent-color);
+}
+
+.site li {
+    outline: 1px solid red;
 }
 
 .site {
@@ -79,6 +92,21 @@ body {
     margin: 0;
     padding-left: 0;
     display: flex;
+}
+
+.site {
+    margin-left: 93px;
+}
+
+.site .item {
+    display: block;
+    margin-right: 50px;
+    padding-top: 29.2px;
+    padding-bottom: 36.2px;
+} 
+
+.site .item:last-child {
+    margin-right: 0;
 }
 
 .site .link {
@@ -99,10 +127,23 @@ body {
     text-decoration: none;
 }
 
+.site-auth li {
+    outline: 1px solid red;
+}
+
 .site-auth {
-    margin: 0;
+    padding-top: 29.2px;
+    padding-bottom: 36.2px;
+}
+
+.site-auth {
     padding-left: 0;
     display: flex;
+    margin-left: auto;
+}
+
+.site-auth .item + .item {
+    margin-left: 50px;
 }
 
 .site-auth .link {
@@ -123,6 +164,7 @@ body {
     color: var(--accent-color);
 }
 
+
 .site-auth .link {
     font-weight: 500;
     font-size: 14px;
@@ -140,6 +182,10 @@ body {
 }
 
 /* секція ефективні рішення */
+
+/* .section-title {
+    display: ;
+} */
 
 .section-title {
     font-weight: 900;
