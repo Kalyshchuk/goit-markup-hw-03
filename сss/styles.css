@@ -26,11 +26,22 @@ body {
 }
 
 .container {
+    margin-left: auto;
+    margin-right: auto;
     width: 1200px;
+    outline: 2px solid gray;
+}
+
+. {
+    display: flex;
 }
 
 .logo .title {
     color: var(--logo-second-coolor);
+}
+
+.logo {
+    display: flex;
 }
 
 .logo {
@@ -64,6 +75,12 @@ body {
     letter-spacing: 0.02em;
 }
 
+.site {
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+}
+
 .site .link {
     color: var(--main-color);
 }
@@ -80,6 +97,12 @@ body {
 
 .site .link {
     text-decoration: none;
+}
+
+.site-auth {
+    margin: 0;
+    padding-left: 0;
+    display: flex;
 }
 
 .site-auth .link {
@@ -140,6 +163,10 @@ body {
 }
 
 .button {
+    border-radius: 4px;
+    border: 1px solid #000000;
+    padding: 10px 32px;
+    
     color: var(--button-text-color);
     background-color: var(--logo-main-color);
 }
