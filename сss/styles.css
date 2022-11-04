@@ -25,14 +25,16 @@ body {
     color: var(--main-color);
 }
 
-.list {
+/* .list {
     margin: 0;
-}
+} */
 
 .container {
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
+    width: 1170px;
+    padding-left: 0px;
+    padding-right: 0px;
     outline: 2px solid gray;
 }
 
@@ -284,11 +286,31 @@ body {
 /* секція чим ми займаємося */
 
 .desc-one {
+    margin: 0;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+.desc-list {
+    display: flex;
+}
+
+.img {
+    margin-right: 30px;
+    margin-bottom: 94px;
+}
+.img:last-child {
+    margin-right: 0;
+}
+
+.desc-list {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 /* секція наша команда */
@@ -297,7 +319,15 @@ body {
     background-color: #F5F4FA;
 }
 
+.professionals {
+    padding-top: 94px;
+}
+
 .team-caption {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    /* padding-top:; */
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -305,22 +335,53 @@ body {
     letter-spacing: 0.03em;
 }
 
-/* .team-item {
-    margin: 0;
-    padding: 0;
-} */
+.team-item {
+    display: flex;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.card .imgs {
+    margin-bottom: 30px;
+}
+
+.card .excerpt {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.card .subject {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+
+
+.card {
+    margin-right: 30px;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+
 
 .team-item .excerpt {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
+    text-align: center;
 }
 
 .subject {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
+    text-align: center;
     color: var(--second-color);
 }
 
@@ -345,6 +406,11 @@ body {
 
 .footer .logo .title {
     color: var(--logo-last-color);
+}
+
+.address-list {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .address-list .link:hover,
@@ -434,6 +500,14 @@ body {
 }
 
 /* список карток */
+
+.pictures {
+    width: 1170;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .link {
     text-decoration: none;
