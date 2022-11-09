@@ -317,15 +317,7 @@ body {
     justify-content:space-between;
 }
 
-/* .foto {
-    margin-right: 30px;
-}
-
-.foto:last-child {
-    margin-right: 0;
-} */
-
-.img {
+img {
     display:block;
     width: 100%;
     height: auto;
@@ -436,7 +428,6 @@ body {
 }
 
 .footer .logo .title {
-    padding-bottom: 20px;
     color: var(--logo-last-color);
 }
 
@@ -479,7 +470,7 @@ body {
 
 .mail {
     display: block;
-    padding-bottom: 9px;
+    margin-bottom: 9px;
     color: var(--address-contact-color);
     
     font-style: normal;
@@ -568,12 +559,12 @@ body {
     color: var(--main-color);
 }
 
-.hero-button .btn {
+.filters {
     margin-right: 8px;
 }
 
-.hero-button .btn:last-child {
-    /* margin-right: 0; */
+.filters:last-child {
+    margin-right: 0;
 }
 
 /* список карток */
@@ -584,13 +575,7 @@ body {
     margin-right: 0;
     margin-bottom: 0;
     padding-left: 0;
-    /* padding-bottom: 94px; */
     flex-wrap: wrap;
-}
-
-.foto {
-    width: 370px;
-    /* outline: 1px solid red; */
 }
 
 .after-cards {
